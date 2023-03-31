@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <!-- nawigacja zawszde sklada sie ze znacznika nav a w srodku z listy i wniej elementy li w ktorych sa linki-->
     <nav class="main">
         <ul>
             <li class="menu-item"><a href="#about-us">About us</a></li>
@@ -18,8 +21,9 @@
 
     <section>
         <h2>About us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, delectus a aut ea incidunt quos optio adipisci sed blanditiis id qui esse, labore quaerat vel reprehenderit possimus placeat eos! Recusandae.</p>
-        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, delectus a aut ea incidunt quos optio adipisci
+            sed blanditiis id qui esse, labore quaerat vel reprehenderit possimus placeat eos! Recusandae.</p>
+
     </section>
 
 
@@ -43,15 +47,36 @@
         </div>
     </section>
 
-    <section>portfolio-</section>
+    <section id="portfolio">
+        <h2>Potrfolio</h2>
+        <!-- wartosc atrybutu alt pojawi sie na stronie gdy z jakis powodow nie zaladuje sie obrazek  -->
+        <div class="portfolio-item"><img src="" alt="img"></div>
+        <div class="portfolio-item"><img src="" alt="img"></div>
+        <div class="portfolio-item"><img src="" alt="img"></div>
+    </section>
 
-    <h2>naglowek</h2>
-    <div class="portfolio-item"><img src="bmw.jpg" alt=""FotoBMW=""></div>
+    <footer id="contact">
 
-    <section>Contact</section>
-    <h1>PIOTR ANDRZEJ BODYS</h1>
-    <p></p>
+
+        <h3>PIOTR ANDRZEJ BODYS</h3>
+        <div class="portfolio-item"><img src="bmw.jpg" alt="bmw"></div>
+
+        <address>adress</address>
+
+        <!-- atrybut required sprawia ze pole musi byc wypelniane -->
+        <form action="">
+            <input type="text" required>
+            <input type="text" required>
+            <textarea cols="30" rows="10" required></textarea>
+
+        </form>
+
+
+
+    </footer>
+
 
 
 </body>
+
 </html>
